@@ -4,6 +4,7 @@ A Java library for DuckDuckGo's Instant Answer API
 
 ## How to use this library?
 ```java
+DuckDuckGo ddg=new DuckDuckGo();
 //get answers to questions
 Response r=ddg.query("what is my ip?");
 Answer ans=r.getAnswer();
